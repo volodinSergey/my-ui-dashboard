@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+button,
+a,
+select,
+option {
+    cursor: pointer;
+}
+button {
+    background-color: transparent;
+}
+img {
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
