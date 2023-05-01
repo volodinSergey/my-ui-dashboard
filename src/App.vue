@@ -7,7 +7,7 @@
     <main class="main">
       <nav>Navigation with components</nav>
 
-      <section class="main">Pages will be here</section>
+      <router-view></router-view>
     </main>
 
     <footer class="footer">Footer</footer>
