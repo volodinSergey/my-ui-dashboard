@@ -6,12 +6,4 @@
   </div>
 </template>
 
-<style scoped lang="scss">
-.init {
-  background-color: blueviolet;
-
-  &__heading {
-    color: aqua;
-  }
-}
-</style>
+<style scoped lang="scss"></style>
