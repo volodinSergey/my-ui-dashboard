@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from './widgets/Header.widget.vue'
+import Footer from './widgets/Footer.widget.vue'
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import Header from './widgets/Header.widget.vue'
       <router-view></router-view>
     </main>
 
-    <footer class="footer">Footer</footer>
+    <Footer />
   </div>
 </template>
 
@@ -26,9 +27,5 @@ import Header from './widgets/Header.widget.vue'
 .main {
   display: grid;
   grid-template-columns: minmax(150px, 20%) 1fr;
-}
-
-.footer {
-  background-color: red;
 }
 </style>
