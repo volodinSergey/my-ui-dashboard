@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from './widgets/Header.widget.vue'
+</script>
 
 <template>
   <div class="app">
-    <header class="header">Header</header>
+    <Header />
 
     <main class="main">
       <nav>Navigation with components</nav>
@@ -24,10 +26,6 @@
 .main {
   display: grid;
   grid-template-columns: minmax(150px, 20%) 1fr;
-}
-
-.header {
-  background-color: tomato;
 }
 
 .footer {
