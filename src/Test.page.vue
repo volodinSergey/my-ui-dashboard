@@ -1,5 +1,5 @@
 <template>
-  <div>Test page mother fucker</div>
+  <div>Test page 1</div>
 </template>
 
 <script setup lang="ts"></script>
