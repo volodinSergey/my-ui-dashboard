@@ -8,7 +8,7 @@ import Footer from '../Header.widget.vue'
     <Header />
 
     <main class="main">
-      <nav>Navigation with components</nav>
+      <nav>Navigation for components</nav>
 
       <slot name="router-content" />
     </main>
