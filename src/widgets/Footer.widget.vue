@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header class="footer">This is a footer widget</header>
+  <footer class="footer">This is a footer widget</footer>
 </template>
 
 <style scoped>

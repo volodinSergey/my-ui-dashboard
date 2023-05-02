@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Header from '../Header.widget.vue'
-import Footer from '../Header.widget.vue'
+import Header from '@widgets/Header.widget.vue'
+import Footer from '@widgets/Footer.widget.vue'
 </script>
 
 <template>
