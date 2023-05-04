@@ -8,7 +8,7 @@ import Footer from '@widgets/Footer.widget.vue'
     <Header />
 
     <main class="main">
-      <nav>Navigation for components</nav>
+      <nav class="main__nav nav">Navigation for components</nav>
 
       <slot name="router-content" />
     </main>
@@ -27,5 +27,10 @@ import Footer from '@widgets/Footer.widget.vue'
 .main {
   display: grid;
   grid-template-columns: minmax(150px, 20%) 1fr;
+}
+
+.nav {
+  background-color: #021d38;
+  border-right: 3px solid #2c639b;
 }
 </style>

@@ -6,6 +6,7 @@
 
 <style scoped>
 .header {
-  background-color: cadetblue;
+  color: #fff;
+  background-color: #031930f7;
 }
 </style>

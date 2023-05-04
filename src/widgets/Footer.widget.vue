@@ -6,7 +6,7 @@
 
 <style scoped>
 .footer {
-  background-color: rgb(7, 47, 59);
+  background-color: #213536;
   color: #fff;
 }
 </style>
