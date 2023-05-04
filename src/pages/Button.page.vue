@@ -36,5 +36,6 @@
 
 .button-page__main-title {
   font-size: clamp(1.875rem, 3vw, 3.125rem);
+  margin-bottom: 1em;
 }
 </style>
