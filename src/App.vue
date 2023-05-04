@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MainLayout from './widgets/layouts/Main.layout.vue'
+import MainLayout from '@widgets/layouts/Main.layout.vue'
 </script>
 
 <template>
