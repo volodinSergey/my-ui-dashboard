@@ -19,10 +19,10 @@
     <UButton disabled> Disabled </UButton>
 
     <h2>With slots</h2>
-
     <UButton>
-      <template #before> </template>
-      Before content
+      <template #before> Before</template>
+      main
+      <template #after> After</template>
     </UButton>
   </section>
 </template>
